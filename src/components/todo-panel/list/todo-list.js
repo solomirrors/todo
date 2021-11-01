@@ -1,7 +1,7 @@
 import React from 'react';
-import TodoListItem from '../item/todo-list-item'
+import TodoListItem from '../item/'
+import TodoButtonPanel from "../button";
 import './todo-list.css';
-import TodoButtonPanel from "../button/todo-button-panel";
 
 const TodoList = ({todos}) => {
 

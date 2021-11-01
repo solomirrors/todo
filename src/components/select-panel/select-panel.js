@@ -1,20 +1,8 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
+import SelectPanelButton from "./button";
+import SelectPanelSearch from "./search";
 import "./select-panel.css"
-
-const SelectPanelButton = ({buttonText}) => {
-    return(
-        <button type='button' className='button-search-panel btn btn-info'>{buttonText}</button>
-    );
-}
-
-const SelectPanelSearch = () => {
-    const searchText = 'Type here to search';
-
-    return(
-        <input className='input-search-panel' placeholder={searchText}/>
-    );
-}
 
 const SelectPanel = () => {
     return(
