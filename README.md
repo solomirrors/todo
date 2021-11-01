@@ -14,5 +14,5 @@
 - Enabling and using CSS
 
 # Project appearance:
-    <img src="https://i.imgur.com/slzccqT.jpg" title="ToDo Desktop"/>
-    <img src="https://i.imgur.com/oF9SkqW.jpg" title="ToDo Mobile"/>
+    ![](https://i.imgur.com/slzccqT.jpg)
+    ![](https://i.imgur.com/oF9SkqW.jpg)
