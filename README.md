@@ -14,5 +14,5 @@
 - Enabling and using CSS
 
 #Project appearance:
-    <img height="600" src="https://i.imgur.com/slzccqT.jpg" title="ToDo Desktop" width="800"/>
-    <img height="600" src="https://i.imgur.com/oF9SkqW.jpg" title="ToDo Desktop" width="800"/>
+    <img src="https://i.imgur.com/slzccqT.jpg" title="ToDo Desktop"/>
+    <img src="https://i.imgur.com/oF9SkqW.jpg" title="ToDo Mobile"/>
