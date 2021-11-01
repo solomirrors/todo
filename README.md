@@ -1,6 +1,6 @@
 # General description:
 
-**ToDo Lists is a learning project developed using the React library for video tutorials: [www.udemy.com/course/pro-react-redux/]()**
+**ToDo Lists is a learning project developed using the React library for video tutorials: www.udemy.com/course/pro-react-redux/**
 
 # The project includes:
 - Building a project
