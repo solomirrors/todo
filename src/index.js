@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppHeader from "./components/app-header/app-header";
-import SearchPanel from "./components/search-panel/search-panel";
 
 import './index.css';
 import TodoPanel from "./components/todo-panel/todo-panel";
+import SelectPanel from "./components/select-panel/select-panel";
 
 const App = () => {
     return(
         <div className='index-group'>
             <AppHeader/>
-            <SearchPanel/>
+            <SelectPanel/>
             <TodoPanel/>
         </div>
     );

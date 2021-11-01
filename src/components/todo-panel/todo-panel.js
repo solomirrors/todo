@@ -1,6 +1,6 @@
 import React from 'react';
 import './todo-panel.css';
-import TodoList from "../todo-list/todo-list";
+import TodoList from "./list/todo-list";
 import {Col, Row} from "react-bootstrap";
 
 const todoData = [
