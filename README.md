@@ -14,5 +14,5 @@
 - Enabling and using CSS
 
 # Project appearance:
-    ![](https://i.imgur.com/slzccqT.jpg)
-    ![](https://i.imgur.com/oF9SkqW.jpg)
+<img src="https://i.imgur.com/slzccqT.jpg"/>
+<img src="https://i.imgur.com/oF9SkqW.jpg"/>
