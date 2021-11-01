@@ -1,0 +1,40 @@
+.row-app-header{
+    --bs-gutter-x: 0rem;
+}
+
+.my-todo-list{
+    font-size: 46px;
+    color: #fff;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.more-todo-done{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px){
+    .my-todo-list{
+        justify-content: center;
+    }
+    .more-todo-done{
+        justify-content: center;
+    }
+
+    .col-my-todo{
+        width: 100%;
+    }
+
+    .col-more-todo{
+        width: 100%;
+    }
+}

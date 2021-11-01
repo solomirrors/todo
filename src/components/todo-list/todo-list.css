@@ -1,0 +1,12 @@
+.todo-list .list-group-item{
+    background: #052d3f;
+
+
+    box-sizing: border-box;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
