@@ -1,8 +1,8 @@
-.row-search-panel{
+.filter-container-panel{
     color: #fff;
     margin: 10px 12px;
 }
 
-.col-search-panel{
+.filter-content-panel{
     display: flex;
 }

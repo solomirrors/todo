@@ -1,7 +1,7 @@
 import React from 'react';
-import './todo-list-item.css'
+import './todo-item.css'
 
-const TodoListItem = ({label, important = false}) => {
+const TodoItem = ({label, important = false}) => {
     const style = {
       color: important ? '#ff2b00': 'white'
     };
@@ -15,4 +15,4 @@ const TodoListItem = ({label, important = false}) => {
     );
 }
 
-export default TodoListItem;
+export default TodoItem;

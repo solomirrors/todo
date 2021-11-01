@@ -1,4 +1,4 @@
-.input-search-panel{
+.filters-search{
     text-align: center;
     background: #ffffff;
     color: #fff;
@@ -13,7 +13,7 @@
     color: #000;
 }
 
-.input-search-panel::-webkit-input-placeholder {color: #787a80;}
-.input-search-panel::-moz-placeholder {color:#787a80;}
-.input-search-panel::-moz-placeholder {color:#787a80;}
-.input-search-panel::-ms-input-placeholder {color:#787a80;}
+.filters-search::-webkit-input-placeholder {color: #787a80;}
+.filters-search::-moz-placeholder {color:#787a80;}
+.filters-search::-moz-placeholder {color:#787a80;}
+.filters-search::-ms-input-placeholder {color:#787a80;}
