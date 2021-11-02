@@ -18,5 +18,5 @@
 - Enabling and using CSS
 
 # Project appearance:
-<img src="https://i.imgur.com/slzccqT.jpg"/>
-<img src="https://i.imgur.com/oF9SkqW.jpg"/>
+<img src="https://i.imgur.com/ZDDcVSb.jpg"/>
+<img src="https://i.imgur.com/3Q52mMi.jpg"/>
