@@ -5,7 +5,7 @@ const FilterSearch = () => {
     const searchText = 'Type here to search';
 
     return(
-        <input className='filters-search' placeholder={searchText}/>
+        <input className='filter-search' placeholder={searchText}/>
     );
 }
 

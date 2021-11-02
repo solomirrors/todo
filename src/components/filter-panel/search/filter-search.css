@@ -1,4 +1,4 @@
-.filters-search{
+.filter-search{
     text-align: center;
     background: #ffffff;
     color: #fff;
@@ -13,7 +13,7 @@
     color: #000;
 }
 
-.filters-search::-webkit-input-placeholder {color: #787a80;}
-.filters-search::-moz-placeholder {color:#787a80;}
-.filters-search::-moz-placeholder {color:#787a80;}
-.filters-search::-ms-input-placeholder {color:#787a80;}
+.filter-search::-webkit-input-placeholder {color: #787a80;}
+.filter-search::-moz-placeholder {color:#787a80;}
+.filter-search::-moz-placeholder {color:#787a80;}
+.filter-search::-ms-input-placeholder {color:#787a80;}

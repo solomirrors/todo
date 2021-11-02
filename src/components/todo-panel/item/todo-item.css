@@ -6,3 +6,11 @@
     font-weight: bold;
     color: red;
 }
+
+.todo-container-button{
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+    margin-top: -3px;
+}
