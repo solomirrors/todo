@@ -1,5 +1,7 @@
 # Attention: The project is under development
 
+**I have paws :(**
+
 # General description:
 
 **ToDo Lists is a learning project developed using the React library for video tutorials: www.udemy.com/course/pro-react-redux/**
