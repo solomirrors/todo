@@ -8,7 +8,6 @@ const todoData = [
     {label: 'Make Awesome App', important: true, id: 2},
     {label: 'Have a lunch', important: false, id: 3},
     {label: 'Test React App', important: true, id: 4}
-
 ]
 
 const TodoPanel = () => {

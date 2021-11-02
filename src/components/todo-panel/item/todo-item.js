@@ -1,18 +1,60 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './todo-item.css'
+import {Col, Row} from "react-bootstrap";
+import {MdNotificationImportant, RiDeleteBackFill} from "react-icons/all";
 
-const TodoItem = ({label, important = false}) => {
-    const style = {
-      color: important ? '#ff2b00': 'white'
-    };
+export default class TodoItem extends Component{
 
-    return (
-        <span className='todo-list-item'
-              style={style}
-        >
-            {label}
-        </span>
-    );
+    state = {
+        done: false,
+        important: false
+    }
+
+    onLabelClick = () => {
+        this.setState(({done, important}) => {
+           return {
+               done: !done,
+           }
+        });
+    }
+
+    onMarkImportant = () => {
+        this.setState(({important}) => {
+            return {
+              important: !important
+            };
+        });
+    }
+
+    render() {
+        const {label, onDeleted} = this.props;
+        const { done, important } = this.state;
+        let classNames = 'todo-item';
+
+        if (done) {
+            classNames += ' done';
+        }
+
+        if (important){
+            classNames += ' important'
+        }
+
+        return (
+            <div>
+                <span className={classNames}
+                  onClick={ this.onLabelClick }>
+                    {label}
+                </span>
+                <Row className='todo-container-button'>
+                    <Col>
+                        <RiDeleteBackFill onClick={onDeleted}/>
+                    </Col>
+                    <Col>
+                        <MdNotificationImportant onClick={ this.onMarkImportant}/>
+                    </Col>
+                </Row>
+            </div>
+
+        );
+    }
 }
-
-export default TodoItem;
