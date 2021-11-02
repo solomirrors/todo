@@ -18,7 +18,7 @@ export default class TodoPanel extends Component {
         this.setState(({todoData}) => {
                 const index = todoData.findIndex((el) => el.id === id);
                 const newArray =
-                    [todoData.slice(0, index), todoData.slice(index + 1)];
+                    [... todoData.slice(0, index), ... todoData.slice(index + 1)];
 
                 return {
                     todoData: newArray
@@ -31,7 +31,7 @@ export default class TodoPanel extends Component {
         return(
             <Row className='todo-panel'>
                 <Col sm={12}>
-                    <TodoList todos = {this.state.todoData}
+                    <TodoList todos = { this.state.todoData }
                               onDeleted={ this.deleteItem }/>
                 </Col>
             </Row>
