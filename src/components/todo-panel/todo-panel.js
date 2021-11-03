@@ -10,7 +10,9 @@ export default class TodoPanel extends Component {
                 <Col sm={12}>
                     <TodoList
                         todoData = { this.props.todoData }
-                        delTodoData={ this.props.delTodoData }
+                        delTodoData= { this.props.delTodoData }
+                        onToggleImportant= { this.props.onToggleImportant}
+                        onToggleDone = {this.props.onToggleDone}
                     />
                 </Col>
             </Row>
