@@ -16,6 +16,13 @@
 - Using arrays
 - Using key collections
 - Enabling and using CSS
+- Using class components
+- Event handling
+- Using State (adding, deleting and editing elements)
+- Updating the state depending on the previous state
+- Using Data
+- Working with Forms
+- Controlled components
 
 # Project appearance:
 <img src="https://i.imgur.com/ZDDcVSb.jpg"/>
