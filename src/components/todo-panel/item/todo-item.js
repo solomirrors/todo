@@ -27,7 +27,7 @@ export default class TodoItem extends Component{
     }
 
     render() {
-        const {label, onDeleted} = this.props;
+        const {label, delTodoData} = this.props;
         const { done, important } = this.state;
         let classNames = 'todo-item';
 
@@ -47,7 +47,7 @@ export default class TodoItem extends Component{
                 </span>
                 <Row className='todo-container-button'>
                     <Col>
-                        <RiDeleteBackFill onClick={onDeleted}/>
+                        <RiDeleteBackFill onClick={delTodoData}/>
                     </Col>
                     <Col>
                         <MdNotificationImportant onClick={ this.onMarkImportant}/>
