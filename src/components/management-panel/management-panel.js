@@ -17,10 +17,16 @@ export default class ManagementPanel extends Component{
     onSubmit = (e) => {
         e.preventDefault();
         this.props.addTodoData(this.state.label);
+        this.onClickClearButton();
+    };
+
+    onClickClearButton = () => {
+        this.setState({
+            label: ''
+        });
     }
 
     render() {
-        const {addTodoData} = this.props;
         return(
             <form className='container-management-panel'
                 onSubmit={this.onSubmit}>
@@ -29,13 +35,14 @@ export default class ManagementPanel extends Component{
                     className='add-todo'
                     placeholder='Add a task to the list'
                     onChange={this.onLabelChange}
+                    value={this.state.label}
                 />
                 <Row className='add-todo-button'>
                     <Col>
-                        <AiOutlineClear/>
+                        <AiOutlineClear onClick={this.onClickClearButton}/>
                     </Col>
                     <Col>
-                        <BiBookAdd/>
+                        <BiBookAdd onClick={this.onSubmit}/>
                     </Col>
                 </Row>
             </form>
