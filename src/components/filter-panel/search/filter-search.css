@@ -9,8 +9,7 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 35px;
-    border: 0.0001em solid #0dcaf0;
-    color: #000;
+    border: none;
 }
 
 .filter-search::-webkit-input-placeholder {color: #787a80;}

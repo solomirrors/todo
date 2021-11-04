@@ -16,9 +16,12 @@ export default class ManagementPanel extends Component{
 
     onSubmit = (e) => {
         e.preventDefault();
-        this.props.addTodoData(this.state.label);
-        this.onClickClearButton();
-    };
+        if (this.state.label != '') {
+            this.props.addTodoData(this.state.label);
+            this.onClickClearButton();
+        };
+    }
+    ;
 
     onClickClearButton = () => {
         this.setState({

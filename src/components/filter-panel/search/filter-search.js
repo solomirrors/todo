@@ -5,7 +5,9 @@ const FilterSearch = () => {
     const searchText = 'Type here to search';
 
     return(
-        <input className='filter-search' placeholder={searchText}/>
+        <form className='filter-search'>
+            <input className='input-search' placeholder={searchText}/>
+        </form>
     );
 }
 
