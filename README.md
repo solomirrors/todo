@@ -1,7 +1,6 @@
 # Attention: The project is under development
 
-**I have paws :(**
-**UPD: The current status of the project is available at: https://optimistic-pike-525e04.netlify.app
+**The current status of the project is available at: https://optimistic-pike-525e04.netlify.app**
 
 # General description:
 
