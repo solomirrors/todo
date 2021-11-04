@@ -1,4 +1,4 @@
-# Attention: The project is under development
+# Attention: The project is under development:
 
 **The current status of the project is available at: https://optimistic-pike-525e04.netlify.app**
 
@@ -26,4 +26,4 @@
 
 # Project appearance:
 <img src="https://i.imgur.com/ZDDcVSb.jpg"/>
-<img src="https://i.imgur.com/3Q52mMi.jpg"/>
+<img src="https://i.imgur.com/fVmywUq.jpg"/>
