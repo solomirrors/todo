@@ -59,7 +59,7 @@ export default class App extends Component{
     filTodoData = (arg) => {
         arg.preventDefault();
         const formatArg =
-            arg.target.value.toLowerCase().replace(' ', '');
+            arg.target.value.toLowerCase();
         this.setState(({filterSearch}) =>{
             return{ filterSearch: formatArg }
         });
@@ -108,7 +108,7 @@ export default class App extends Component{
         const todoCount = todoData.length - doneCount;
 
         const filterTodoData =
-            todoData.filter((el) => el.label.toLowerCase().replace(' ', '').search(this.state.filterSearch) === 0)
+            todoData.filter((el) => el.label.toLowerCase().search(this.state.filterSearch) === 0)
 
         return(
             <div>
