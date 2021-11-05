@@ -10,11 +10,14 @@ export default class App extends Component{
     uniKey = 100;
 
     state = {
+        filterSearch: '',
         todoData: [
             this.createTodoItem('Drink Coffee'),
             this.createTodoItem('Make Awesome App'),
             this.createTodoItem('Have a lunch'),
-            this.createTodoItem('Test React App')
+            this.createTodoItem('Test React App'),
+            this.createTodoItem('Add Filters'),
+            this.createTodoItem('Test Filters'),
         ]
     };
 
@@ -53,6 +56,17 @@ export default class App extends Component{
         });
     }
 
+    filTodoData = (arg) => {
+        arg.preventDefault();
+        const formatArg =
+            arg.target.value.toLowerCase().replace(' ', '');
+        this.setState(({filterSearch}) =>{
+            return{ filterSearch: formatArg }
+        });
+    };
+
+
+
     toggleProperty(arr, id, propName) {
         const index =
             arr.findIndex((el) => el.id === id);
@@ -87,12 +101,14 @@ export default class App extends Component{
 
 
     render(){
-        const {todoData} = this.state;
-
+        const {todoData, filterSearch} = this.state;
 
         const doneCount = todoData
             .filter((el) => el.done).length;
         const todoCount = todoData.length - doneCount;
+
+        const filterTodoData =
+            todoData.filter((el) => el.label.toLowerCase().replace(' ', '').search(this.state.filterSearch) === 0)
 
         return(
             <div>
@@ -104,9 +120,11 @@ export default class App extends Component{
                     todoData={todoData}
                     addTodoData = {this.addTodoData}
                 />
-                <FiltersPanel/>
+                <FiltersPanel
+                    filTodoData = {this.filTodoData}
+                />
                 <TodoPanel
-                    todoData={todoData}
+                    todoData={filterTodoData}
                     delTodoData = {this.delTodoData}
                     onToggleImportant = {this.onToggleImportant}
                     onToggleDone = {this.onToggleDone}
