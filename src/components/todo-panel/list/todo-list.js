@@ -9,7 +9,7 @@ const TodoList = ({todoData, delTodoData, onToggleImportant, onToggleDone}) => {
         const {id, ...itemProps} = item;
 
         return(
-            <li key={id} className='list-group-item'>
+            <li key={id} className='list-group-item p-0'>
                 <TodoListItem
                     {... itemProps}
                     delTodoData={() => delTodoData(id)}

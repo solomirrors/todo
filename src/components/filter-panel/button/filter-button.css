@@ -12,4 +12,19 @@
     line-height: 35px;
     color: #000;
     border-radius: 0px;
+
+}
+
+.btn-check:active+.btn-info, .btn-check:checked+.btn-info, .btn-info.active, .btn-info:active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #052d3f;
+    border: none;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-info:focus, .btn-check:checked+.btn-info:focus, .btn-info.active:focus, .btn-info:active:focus, .show>.btn-info.dropdown-toggle:focus {
+    box-shadow: none;
 }

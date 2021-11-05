@@ -20,21 +20,19 @@ export default class TodoItem extends Component{
             classNames += ' important'
 
         return(
-            <div>
-                <span className={classNames}
-                      onClick={onToggleDone}
-                >
-                    {label}
-                </span>
-                <Row className='todo-container-button'>
-                    <Col>
-                        <RiDeleteBackFill onClick={delTodoData}/>
-                    </Col>
-                    <Col>
-                        <MdNotificationImportant onClick={onToggleImportant}/>
-                    </Col>
-                </Row>
-            </div>
+            <Row className='p-0'>
+                <Col className='p-3' sm={10} xs={9}>
+                    <span className={classNames}
+                          onClick={onToggleDone}
+                    >
+                        {label}
+                    </span>
+                </Col>
+                <Col className='management-panel-button p-0' sm={2} xs={3}>
+                    <RiDeleteBackFill className='button-management-panel m-2' onClick={delTodoData}/>
+                    <MdNotificationImportant className='button-management-panel m-2' onClick={onToggleImportant}/>
+                </Col>
+            </Row>
         )
     }
 }

@@ -14,3 +14,7 @@
     margin-right: 2px;
     margin-top: -3px;
 }
+
+.todo-item{
+    word-wrap: break-word;
+}
