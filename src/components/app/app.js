@@ -140,14 +140,14 @@ export default class App extends Component{
                     doneCount = {doneCount}
                     todoCount = {todoCount}
                 />
-                <ManagementPanel
-                    todoData={todoData}
-                    addTodoData = {this.addTodoData}
-                />
                 <FiltersPanel
                     filTodoData = {this.filTodoData}
                     onFilterButtonClick = {this.onFilterButtonClick}
                     filterButton = {filterButton}
+                />
+                <ManagementPanel
+                    todoData={todoData}
+                    addTodoData = {this.addTodoData}
                 />
                 <TodoPanel
                     todoData={DisplayData}

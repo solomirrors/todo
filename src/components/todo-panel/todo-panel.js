@@ -6,7 +6,7 @@ import {Col, Row} from "react-bootstrap";
 export default class TodoPanel extends Component {
     render() {
         return(
-            <Row className='todo-panel'>
+            <Row className='todo-panel px-3 pe-3 pt-1'>
                 <Col sm={12}>
                     <TodoList
                         todoData = { this.props.todoData }
