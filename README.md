@@ -1,6 +1,10 @@
-# Attention: The project is under development:
+# Preface:
 
-**The current status of the project is available at: https://optimistic-pike-525e04.netlify.app**
+The training project is completed, it is possible to see the project live at the following address:
+
+**https://optimistic-pike-525e04.netlify.app**
+
+**I'll come back with a full refactoring a little later, when my skills allow, but now I have paws! (joke)**
 
 # General description:
 
@@ -25,5 +29,5 @@
 - Controlled components
 
 # Project appearance:
-<img src="https://i.imgur.com/ZDDcVSb.jpg"/>
-<img src="https://i.imgur.com/fVmywUq.jpg"/>
+<img src="https://i.imgur.com/eYaa0tj.jpg"/>
+<img src="https://i.imgur.com/NFfYEP7.jpg"/>
